@@ -92,7 +92,7 @@ public @interface SpringBootApplication
 ``` java
 @ComponentScan("com.niuhp.springcloud.sample.helloworld.controller")
 ``` 
-则只能加载到[HelloController](https://github.com/niuhp/springcloud-sample/blob/master/helloworld/src/main/java/com/niuhp/springcloud/sample/helloworld/controller/HelloController.java)了
+则只能加载到[HelloController](https://github.com/niuhp/springcloud-sample/blob/master/helloworld/src/main/java/com/niuhp/springcloud/sample/helloworld/controller/HelloController.java)了  
 **3. 如何指定端口？**
 我们只需要在java启动程序传入参数或者直接修改main方法参数就可以了，[Spring Boot](http://projects.spring.io/spring-boot/)支持各种自定义参数，这里不再重复，以后找机会详细介绍。
 ``` java
