@@ -68,7 +68,7 @@ public class Application {
 **1. 开发一个web项目真的只需要这么少的依赖吗？**  
 当然不是。在pom文件上按下*ctrl+alt+shift+u*(idea项目)你会发现，我们的web项目其实是[Spring Boot](http://projects.spring.io/spring-boot/)帮我们集成了springmvc和tomcat。  
 ![](http://img.niuhp.com/springcloud/helloworld/diagram.png)
-**2. Application是如何扫描到我的controller的？** 
+**2. Application是如何扫描到我的controller的？**  
 打开*SpringBootApplication*注解的源码可以看到它上面有个*ComponentScan*注解，也就是会扫描*Application*当前包及其子包下的spring组件
 ``` java
 @ComponentScan(
