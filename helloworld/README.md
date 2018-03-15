@@ -73,7 +73,7 @@ public class Application {
 
 直接运行 启动类 [Application](https://github.com/niuhp/springcloud-sample/blob/master/helloworld/src/main/java/com/niuhp/springcloud/sample/helloworld/Application.java) 的 main 方法，在浏览器打开 [http://127.0.0.1:8080/](http://127.0.0.1:8080/) 即可看到结果
 
-![](//s.niuhp.com/blog/springclooud/helloworld.png)
+![](https://s.niuhp.com/blog/springclooud/helloworld.png)
 
 ### 5 注意
 - 应用默认扫描被注解 `@SpringBootApplication` 标记的类所在包及其子包下的 class ，可以通过注解的 `basePackages` 属性定制扫描基础包
