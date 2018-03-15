@@ -1,5 +1,5 @@
 
-本文主要介绍怎么使用[Spring Cloud](http://projects.spring.io/spring-cloud/) 快速创建一个 restful 服务，原文链接 [springcloud 构建微服务 01 — 创建 restful 服务](https://niuhp.github.io/springcloud/01-helloworld.html)。
+本文主要介绍怎么使用[Spring Cloud](http://projects.spring.io/spring-cloud/) 快速创建一个 restful 服务，原文链接 [springcloud 构建微服务 01 — 创建 restful 服务](https://niuhp.com/springcloud/01-helloworld.html)。
 
 ### 1 创建 maven 项目
 
