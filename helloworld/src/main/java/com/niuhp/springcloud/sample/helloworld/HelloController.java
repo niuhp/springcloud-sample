@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by niuhaipeng on 2017/3/15.
  */
 @RestController
-public class HelloZhController {
-  @RequestMapping("zh")
+public class HelloController {
+  @RequestMapping
   public String hello() {
-    return "世界，你好！";
+    return "hello,world!";
   }
 }
