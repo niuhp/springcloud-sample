@@ -1,12 +1,3 @@
----
-title: springcloud 构建微服务 01 — 创建 restful 服务
-categories: springcloud
-tags: 
-     - springcloud
-     - springboot
-     - spring
-     - java
----
 
 本文主要介绍怎么使用[Spring Cloud](http://projects.spring.io/spring-cloud/) 快速创建一个 restful 服务，原文链接 [springcloud 构建微服务 01 — 创建 restful 服务](https://niuhp.github.io/springcloud/01-helloworld.html)。
 
@@ -85,5 +76,5 @@ public class Application {
 ![](//s.niuhp.com/blog/springclooud/helloworld.png)
 
 ### 5 注意
-1. 应用默认扫描被注解 `@SpringBootApplication` 标记的类所在包及其子包下的 class ，可以通过注解的 `basePackages` 属性定制扫描基础包
-2. 应用默认监听 8080 端口，可以通过 `--server.port=your_port` 指定，如在 `application.yml` 里增加一行 `server.port: 8888` 或在应用启动时指定控制台参数 `--server.port=8888` 即监听 8888 端口。
+- 应用默认扫描被注解 `@SpringBootApplication` 标记的类所在包及其子包下的 class ，可以通过注解的 `basePackages` 属性定制扫描基础包
+- 应用默认监听 8080 端口，可以通过 `--server.port=your_port` 指定，如在 `application.yml` 里增加一行 `server.port: 8888` 或在应用启动时指定控制台参数 `--server.port=8888` 即监听 8888 端口。
