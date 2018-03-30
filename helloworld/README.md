@@ -9,14 +9,14 @@
 <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.0.0.M7</version>
+    <version>2.0.0.RELEASE</version>
 </parent>
 <dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-dependencies</artifactId>
-            <version>Finchley.M7</version>
+            <version>Finchley.M9</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
