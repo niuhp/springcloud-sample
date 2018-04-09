@@ -32,16 +32,6 @@
         <artifactId>spring-cloud-starter-eureka</artifactId>
     </dependency>
 </dependencies>
-<repositories>
-    <repository>
-        <id>spring-milestones</id>
-        <name>Spring Milestones</name>
-        <url>https://repo.spring.io/libs-milestone</url>
-        <snapshots>
-            <enabled>false</enabled>
-        </snapshots>
-    </repository>
-</repositories>
 ```
 
 ### 2 创建 controller
