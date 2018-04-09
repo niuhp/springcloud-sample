@@ -9,14 +9,14 @@
 <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.0.0.RELEASE</version>
+    <version>1.5.10.RELEASE</version>
 </parent>
 <dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-dependencies</artifactId>
-            <version>Finchley.M9</version>
+            <version>Edgware.SR3</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
@@ -31,7 +31,8 @@
         <groupId></groupId>
         <artifactId>spring-cloud-starter-eureka</artifactId>
     </dependency>
-</dependencies><repositories>
+</dependencies>
+<repositories>
     <repository>
         <id>spring-milestones</id>
         <name>Spring Milestones</name>
