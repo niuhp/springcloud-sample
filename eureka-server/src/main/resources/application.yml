@@ -1,15 +1,10 @@
+# 服务注册中心名字
 spring.application.name: eureka-server
-management.security.enabled: false
+# 服务注册中心实例端口号
 server.port: 8761
 eureka:
-  instance.hostname: localhost
+  instance.hostname: localhost # 服务注册中心实例的主机名
   client:
-    registerWithEureka: false
-    fetchRegistry: false
-    serviceUrl.defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-security:
-  basic:
-    enabled: true
-  user:
-    name: admin
-    password: admin
+    registerWithEureka: false # 是否向服务注册中心注册自己
+    fetchRegistry: false # 是否从服务注册中心发现服务
+    serviceUrl.defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ # 服务注册中心的配置内容，指定服务注册中心的位置

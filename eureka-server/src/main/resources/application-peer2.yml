@@ -1,0 +1,12 @@
+# 服务注册中心名字
+spring.application.name: eureka-server
+# 服务注册中心实例端口号
+server.port: 8772
+eureka:
+  instance:
+    hostname: eureka2 # 服务注册中心实例的主机名
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port} # 服务注册中心的实例 id
+  client:
+    registerWithEureka: true # 是否向服务注册中心注册自己，集群模式下需要设置为 true 以将自己注册到其他 Eureka Server 节点
+    fetchRegistry: true # 是否从服务注册中心发现服务
+    serviceUrl.defaultZone: http://eureka1:8771/eureka/,http://eureka3:8773/eureka/ # 服务注册中心的配置内容，指定服务注册中心的位置
